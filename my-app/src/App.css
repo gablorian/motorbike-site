@@ -1,0 +1,334 @@
+@font-face {
+  font-family: 'futuramedium';
+  src: url('../src/fonts/futura_medium-webfont.woff2') format('woff2'),
+  url('../src/fonts/futura_medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: futuramedium, sans-serif;
+  color: white;
+}
+html{
+    background-color: #282c34;
+}
+.app{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+html{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    padding: 30px;
+}
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    background-color: #282c34;
+    z-index: 999;
+
+}
+
+.dunno{
+    background-image: url("../src/images/bmw-r-1200-gs-adventure-01.1200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 100%;
+    height: 30vh;
+}
+.dunnosecond{
+    background-image: url("../src/images/RIDEWELLRebuild-AftertheTeardownRIDEWELL.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 100%;
+    height: 30vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.mainLogo {
+    width: auto;
+    height: 15vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.menuElement {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    margin: 15px;
+    white-space: nowrap;
+    font-weight: bold;
+    background: none;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border: 3px solid aqua;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.addon {
+    background-color: #d9f3ff;
+    width:100vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
+.addon span {
+    color: #282c34;
+}
+.addon:before{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    z-index: -10;
+    content: "";
+}
+.menuElement span {
+    font-size: 24px;
+    line-height: 2;
+}
+
+.menuElement span:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.image {
+    width: 100vw;
+    height: auto;
+}
+
+.mainPhoto {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("../src/images/second.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.notMainPhoto {
+    width: 95%;
+    height: auto;
+}
+.diffPhoto {
+    width: 95%;
+    height: auto;
+}
+
+.offer {
+    background-color: #282c34;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+ }
+.offers {
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: center;
+    padding: 20px;
+}
+
+.hours span{
+    margin: 10px;
+    padding-left: 10px;
+    font-size: 1.5em;
+}
+.textDiv {
+    width: 95%;
+    height: auto;
+}
+.rowOrColumn{
+    display: flex;
+}
+
+.sendUserToOtomoto {
+    position: absolute;
+    bottom: 30%;
+    background: none;
+    color: white;
+    height: 10vh;
+    font-weight: bolder;
+    font-size: 1.5em;
+    line-height: 2;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border: 3px solid aqua;
+    padding: 10px 15px;
+}
+.sendUserToOtomoto a:hover {
+    color: red;
+}
+.sendUserToOtomotoBigger{
+    font-size: 1.5rem;
+}
+.otoBanner{
+    height: 25vh;
+}
+.map{
+    width:600px;
+    height:450px;
+    border: 0;
+}
+.spacer {
+    position: relative;
+    background-color: #971f1f;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+.spacer::before{
+    position: absolute;
+    top: -15px;
+    background-color: #971f1f;
+    transform: rotate(45deg);
+    content: "";
+    height: 30px;
+    width: 30px;
+}
+.spacer::after{
+    position: absolute;
+    bottom: -14px;
+    background-color: #971f1f;
+    transform: rotate(45deg);
+    content: "";
+    height: 30px;
+    width: 30px;
+
+}
+
+@media (min-width: 1025px)  {
+    .header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .rowOrColumn{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .textDiv{
+        width: 35%;
+    }
+    .contactShit{
+        background-image: url("../src/images/first.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        flex-direction: row;
+    }
+    .pageContent{
+        padding-top: 17vh;
+        background-image: url("../src/images/bmw-r-1200-gs-adventure-01.1200.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-position-y: top;
+    }
+    .maps {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .hours{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+    .header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .rowOrColumn{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contactShit{
+        background-image: url("../src/images/first.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+    .pageContent{
+        padding-top: 37vh;
+        background-image: url("../src/images/bmw-r-1200-gs-adventure-01.1200.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-position-y: top;
+    }
+    .maps {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+     }
+    .hours{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
