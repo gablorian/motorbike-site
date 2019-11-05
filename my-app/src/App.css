@@ -89,7 +89,12 @@ p{
     justify-content: space-evenly;
     padding: 20px;
 }
-
+.textforinvi {
+    color: #d9f3ff;
+    font-size: 1.5em;
+    z-index: 100;
+    line-height: 2;
+}
 .menuElement {
     display: flex;
     justify-content: center;
@@ -106,25 +111,6 @@ p{
     padding: 5px 10px;
     text-align: center;
 }
-
-.addon {
-    background-color: #d9f3ff;
-    width:100vw;
-    height: 5vw;
-    display: flex;
-    justify-content: center;
-    vertical-align: center;
-}
-.addon span {
-    color: #282c34;
-}
-.addon:before{
-    background-color: red;
-    width: 10px;
-    height: 10px;
-    z-index: -10;
-    content: "";
-}
 .menuElement span {
     font-size: 24px;
     line-height: 2;
@@ -139,28 +125,14 @@ p{
     width: 100vw;
     height: auto;
 }
-
-.mainPhoto {
-    width: 100vw;
+.offer {
+    width: 100%;
     height: 70vh;
     background-image: url("../src/images/second.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-}
-
-.notMainPhoto {
-    width: 95%;
-    height: auto;
-}
-.diffPhoto {
-    width: 95%;
-    height: auto;
-}
-
-.offer {
-    background-color: #282c34;
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
@@ -177,14 +149,6 @@ p{
     padding-left: 10px;
     font-size: 1.5em;
 }
-.textDiv {
-    width: 95%;
-    height: auto;
-}
-.rowOrColumn{
-    display: flex;
-}
-
 .sendUserToOtomoto {
     position: absolute;
     bottom: 30%;
@@ -217,7 +181,7 @@ p{
 .spacer {
     position: relative;
     background-color: #971f1f;
-    height: 5vh;
+    height: 6vh;
     display: flex;
     justify-content: center;
 }
@@ -229,6 +193,7 @@ p{
     content: "";
     height: 30px;
     width: 30px;
+    z-index: 50;
 }
 .spacer::after{
     position: absolute;
@@ -238,9 +203,41 @@ p{
     content: "";
     height: 30px;
     width: 30px;
+    z-index: 50;
 
 }
+.hoursColumn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+.aboutDiv{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aboutDiv div{
+    display: flex;
+    width: 50%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.textDiv{
+    display: flex;
+    padding: 15px;
+    text-align: center;
 
+}
+.photoDiv{
+    width: 50%;
+    background-image: url("../src/images/2014-BMW-R1200-GS-Adventure-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 @media (min-width: 1025px)  {
     .header {
         width: 100%;
@@ -271,7 +268,6 @@ p{
     }
     .pageContent{
         padding-top: 17vh;
-        background-image: url("../src/images/bmw-r-1200-gs-adventure-01.1200.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -285,7 +281,9 @@ p{
     .hours{
         width: 50%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
     }
 }
 @media (min-width: 320px) and (max-width: 1024px) {
@@ -315,11 +313,6 @@ p{
     }
     .pageContent{
         padding-top: 37vh;
-        background-image: url("../src/images/bmw-r-1200-gs-adventure-01.1200.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-position-y: top;
     }
     .maps {
          width: 100%;

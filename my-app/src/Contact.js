@@ -5,7 +5,7 @@ function Contact() {
     return (
 <div>
     <div className='spacer'>
-
+        <span className='textforinvi'> Kontakt </span>
     </div>
     <div className='contactShit'>
 
@@ -15,10 +15,24 @@ function Contact() {
             > </iframe>
         </div>
         <div className='hours'>
-            <span>Godziny otwarcia:</span>
-            <span>Pon - Pt : 9:00 - 17:00</span>
-            <span>Sob : 9:00 - 13:00</span>
-            <span>Nd : Zamknięte</span>
+            <div className='hoursColumn'>
+                <span>Godziny otwarcia:</span>
+                <span>Pon - Pt : 9:00 - 17:00</span>
+                <span>Sob : 9:00 - 13:00</span>
+                <span>Nd : Zamknięte</span>
+                <span></span>
+                <span>Adres siedziby:</span>
+                <span>ul.Goździkowa 11</span>
+                <span>35-604 Rzeszów</span>
+
+            </div>
+            <div className='hoursColumn'>
+                <span>Kontakt:</span>
+                <span>Telefon:</span>
+                <span>604 533 921</span>
+                <span>Email:</span>
+                <span>seekomoto@gmail.com</span>
+            </div>
         </div>
 
     </div>

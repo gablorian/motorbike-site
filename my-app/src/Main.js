@@ -9,7 +9,7 @@ function Main() {
             <div className='spacer'>
 
             </div>
-            <div className='offer mainPhoto'>
+            <div className='offer'>
                 <div className='sendUserToOtomoto' >
                     <a href='https://motocykle-rzeszow.otomoto.pl'>
                         Zobacz naszą ofertę w Otomoto!
