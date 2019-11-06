@@ -72,6 +72,19 @@ p{
     width: 100%;
     height: 30vh;
 }
+.dunnothird{
+    background-image: url("../src/images/2014-BMW-R1200-GS-Adventure-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 100%;
+    height: 30vh;
+}
 
 .logo {
     display: flex;
@@ -107,7 +120,7 @@ p{
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
-    border: 3px solid aqua;
+    border: 3px solid red;
     padding: 5px 10px;
     text-align: center;
 }
@@ -132,7 +145,7 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
+    position: static;
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
@@ -151,9 +164,10 @@ p{
 }
 .sendUserToOtomoto {
     position: absolute;
+    background-color: #282c34;
     bottom: 30%;
-    background: none;
     color: white;
+
     height: 10vh;
     font-weight: bolder;
     font-size: 1.5em;
@@ -161,15 +175,18 @@ p{
     text-transform: uppercase;
     text-decoration: none;
     cursor: pointer;
-    border: 3px solid aqua;
+    border: 3px solid red;
     padding: 10px 15px;
+    transition: all .2s ease-in-out;
+}
+.sendUserToOtomoto:hover{
+    transform: scale(1.1);
 }
 .sendUserToOtomoto a:hover {
     color: red;
+
 }
-.sendUserToOtomotoBigger{
-    font-size: 1.5rem;
-}
+
 .otoBanner{
     height: 25vh;
 }
@@ -211,6 +228,8 @@ p{
     flex-direction: column;
     flex-wrap: nowrap;
     height: 100%;
+    background-color: #282c34;
+    border: 3px solid red;
 }
 .aboutDiv{
     display: flex;
@@ -237,6 +256,13 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media (min-width: 1025px)  {
     .header {
@@ -312,16 +338,17 @@ p{
         flex-direction: column-reverse;
     }
     .pageContent{
-        padding-top: 37vh;
+        padding-top: 35vh;
     }
     .maps {
-         width: 100%;
-         display: flex;
-         justify-content: center;
-     }
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
     .hours{
         width: 100%;
         display: flex;
-        flex-direction: column;
+        justify-content: space-evenly;
     }
 }

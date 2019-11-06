@@ -63,6 +63,12 @@ class Menu extends React.Component {
                 <section className='pageContent'>
                     {button}
                 </section>
+                <footer>
+                    <span>Copyright &copy; SeekoMoto 2019</span>
+                    |
+                    <span>Site made by Gabriel Michoński</span>
+
+                </footer>
             </div>
         ))}}
     export default Menu;

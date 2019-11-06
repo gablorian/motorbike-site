@@ -39,6 +39,16 @@ function Main() {
             <div className='spacer'>
 
             </div>
+            <section className=' dunnothird'>
+
+                <p>
+                    Chcesz zamienić swój motocykl na coś innego? Przyjdź do nas - przyjmujemy motocykle w rozliczeniu!
+                </p>
+
+            </section>
+            <div className='spacer'>
+
+            </div>
         </div>
 
     );
