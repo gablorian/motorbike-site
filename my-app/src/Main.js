@@ -18,12 +18,22 @@ function Main() {
             </div>
             <div className='spacer'>
 
+        </div>
+            <section className='dun'>
+
+                <p >
+                    Rozdajemy opony! W zimie do zakupionych u nas motocykli dodajemy komplet nowych opon Pirelli lub Michelin GRATIS*!
+                </p>
+
+            </section>
+            <div className='spacer'>
+
             </div>
             <section className=' dunno'>
 
-                    <p >
-                        Kupuj tylko pewniaki! Na wszystkie nasze motocykle udzielamy gwarancji!
-                    </p>
+                <p >
+                    Kupuj tylko pewniaki! Na wszystkie nasze motocykle udzielamy gwarancji!
+                </p>
 
             </section>
             <div className='spacer'>

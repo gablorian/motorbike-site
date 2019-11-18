@@ -45,7 +45,19 @@ p{
     z-index: 999;
 
 }
-
+.dun{
+    background-image: url("../src/images/tyres.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 100%;
+    height: 30vh;
+}
 .dunno{
     background-image: url("../src/images/bmw-r-1200-gs-adventure-01.1200.jpg");
     background-repeat: no-repeat;
@@ -179,13 +191,6 @@ p{
     padding: 10px 15px;
     transition: all .2s ease-in-out;
 }
-.sendUserToOtomoto:hover{
-    transform: scale(1.1);
-}
-.sendUserToOtomoto a:hover {
-    color: red;
-
-}
 
 .otoBanner{
     height: 25vh;
@@ -310,6 +315,13 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: nowrap;
+    }
+    .sendUserToOtomoto:hover{
+        transform: scale(1.1);
+    }
+    .sendUserToOtomoto a:hover {
+        color: red;
+
     }
 }
 @media (min-width: 320px) and (max-width: 1024px) {
