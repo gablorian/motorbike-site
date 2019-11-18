@@ -4,6 +4,7 @@ import './App.css';
 import Main from "./Main";
 import About from "./About";
 import Contact from "./Contact";
+import Fade from 'react-reveal/Fade';
 
 class Menu extends React.Component {
     constructor(props) {
@@ -38,6 +39,7 @@ class Menu extends React.Component {
         return ( (
 
             <div className="app">
+                <Fade top>
                 <section className='header'>
                     <div className='logo'>
                         <img src={logo} className="mainLogo" alt="seeko logo"/>
@@ -60,6 +62,7 @@ class Menu extends React.Component {
                         </div>
                     </div>
                 </section>
+                </Fade>
                 <section className='pageContent'>
                     {button}
                 </section>

@@ -2,63 +2,73 @@ import React from 'react';
 import './App.css';
 
 
-
 function Main() {
     return (
+
         <div>
-            <div className='spacer'>
 
-            </div>
-            <div className='offer'>
-                <div className='sendUserToOtomoto' >
-                    <a href='https://motocykle-rzeszow.otomoto.pl'>
-                        Zobacz naszą ofertę w Otomoto!
-                    </a>
+                <div>
+                    <div className='spacer'>
+
+                    </div>
+                    <div className='offer'>
+                        <div className='sendUserToOtomoto' >
+                            <a href='https://motocykle-rzeszow.otomoto.pl'>
+                                Zobacz naszą ofertę w Otomoto!
+                            </a>
+                        </div>
+                    </div>
+                    <div className='spacer'>
+                    </div>
                 </div>
-            </div>
-            <div className='spacer'>
 
-        </div>
-            <section className='dun'>
 
-                <p >
-                    Rozdajemy opony! W zimie do zakupionych u nas motocykli dodajemy komplet nowych opon Pirelli lub Michelin GRATIS*!
-                </p>
+                <section className='dun'>
 
-            </section>
-            <div className='spacer'>
+                    <p >
+                        Rozdajemy opony! W zimie do zakupionych u nas motocykli dodajemy komplet nowych opon Pirelli lub Michelin GRATIS*!
+                    </p>
 
-            </div>
-            <section className=' dunno'>
+                </section>
+                <div className='spacer'>
 
-                <p >
-                    Kupuj tylko pewniaki! Na wszystkie nasze motocykle udzielamy gwarancji!
-                </p>
+                </div>
 
-            </section>
-            <div className='spacer'>
 
-            </div>
-            <section className=' dunnosecond'>
+                <section className=' dunno'>
 
-                <p>
-                    Kupując motocykl u nas zyskujesz możliwość serwisowania i kupowania akcesoriów z dużymi rabatami!
-                </p>
+                    <p >
+                        Kupuj tylko pewniaki! Na wszystkie nasze motocykle udzielamy gwarancji!
+                    </p>
 
-            </section>
-            <div className='spacer'>
+                </section>
+                <div className='spacer'>
 
-            </div>
-            <section className=' dunnothird'>
+                </div>
 
-                <p>
-                    Chcesz zamienić swój motocykl na coś innego? Przyjdź do nas - przyjmujemy motocykle w rozliczeniu!
-                </p>
+                <section className=' dunnosecond'>
 
-            </section>
-            <div className='spacer'>
+                    <p>
+                        Kupując motocykl u nas zyskujesz możliwość serwisowania i kupowania akcesoriów z dużymi rabatami!
+                    </p>
 
-            </div>
+                </section>
+                <div className='spacer'>
+
+                </div>
+
+                <section className=' dunnothird'>
+
+                    <p>
+                        Chcesz zamienić swój motocykl na inny? Przyjdź do nas - przyjmujemy motocykle w rozliczeniu!
+                    </p>
+
+                </section>
+                <div className='spacer'>
+
+                </div>
+
+
         </div>
 
     );
