@@ -246,6 +246,8 @@ p{
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    height: 50vh;
+
 }
 .aboutDiv div{
     display: flex;
@@ -258,14 +260,36 @@ p{
     display: flex;
     padding: 15px;
     text-align: center;
+    align-items: center;
 
 }
-.photoDiv{
+.photoDivOne{
     width: 50%;
-    background-image: url("../src/images/2014-BMW-R1200-GS-Adventure-2.jpg");
-    background-size: cover;
+    background-image: url("../src/images/DSC07547.JPG");
+    background-size: 100% auto;
+    background-position: center;
     background-repeat: no-repeat;
-
+}
+.photoDivTwo{
+    width: 50%;
+    background-image: url("../src/images/DSC06829.JPG");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photoDivThree{
+    width: 50%;
+    background-image: url("../src/images/first.jpg");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photoDivFour{
+    width: 50%;
+    background-image: url("../src/images/DSC08075.JPG");
+    background-size: 100% auto ;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 footer {
     width: 100%;
