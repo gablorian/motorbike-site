@@ -68,7 +68,7 @@ class Menu extends React.Component {
                 </section>
                 <footer>
                     <span>Copyright &copy; SeekoMoto 2019</span>
-                    |
+                    <span>|</span>
                     <span>Site made by Gabriel Michoński</span>
 
                 </footer>
