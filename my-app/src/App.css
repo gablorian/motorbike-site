@@ -26,12 +26,13 @@ html{
 html{
     overflow-x: hidden;
 }
-
 a{
     text-decoration: none;
 }
 p{
-    padding: 30px;
+    padding: 5px;
+    background-color: #282c34;
+    color: white;
 }
 .header {
     width: 100%;
@@ -43,10 +44,6 @@ p{
     z-index: 999;
 
 }
-
-
-
-
 .textforinvi {
     color: #d9f3ff;
     font-size: 1.5em;
@@ -62,7 +59,7 @@ p{
     display: flex;
     justify-content: center;
     vertical-align: center;
-    margin: 15px 0 15px 0;
+    margin: 15px;
     height: fit-content;
     white-space: nowrap;
     font-weight: bold;
